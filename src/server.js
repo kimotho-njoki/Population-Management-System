@@ -11,7 +11,7 @@ const server = Hapi.server({
   }
 });
 
-exports.main = async () => {
+const main = async () => {
   await server.register(require('@hapi/cookie'));
 
   server.auth.strategy('restricted', 'cookie', {
@@ -33,3 +33,5 @@ exports.main = async () => {
 
   return server;
 }
+
+main();
