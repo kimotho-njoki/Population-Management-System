@@ -20,19 +20,15 @@ The Population Management System enables users to create locations, add sub loca
 | -------------|--------|-------------|
 |/auth/register| POST   | POST a single user |
 |/auth/login| POST   | POST a single user |
-
 |/locations| GET   | GET all locations |
 |/locations/statistics/<:locationID>| GET   | GET a single locations population summary |
 |/locations| POST   | POST a location |
 |/locations/<:locationID>| PUT   | Update a specific location |
 |/locations/<:locationID>| DELETE   | DELETE a specific location |
-
 |/sublocations| GET   | GET all sublocations |
 |/sublocations/<:locationID>| POST   | POST a single sublocation |
 |/sublocations/<:sublocationID>| PUT    | Update a single sublocation |
 |/sublocations/<:sublocationID>| DELETE   | DELETE a single sublocation |
-
-
 |/residents| GET   | GET all residents |
 |/residents/<:locationID>| POST   | POST a single resident |
 |/residents/<:residentID>| PUT    | Update a single resident |
