@@ -30,6 +30,7 @@ The Population Management System enables users to create locations, add sub loca
 |/sublocations/<:sublocationID>| PUT    | Update a single sublocation |
 |/sublocations/<:sublocationID>| DELETE   | DELETE a single sublocation |
 |/residents| GET   | GET all residents |
+|/residents/<:gender>| GET   | GET residents filtered by gender |
 |/residents/<:locationID>| POST   | POST a single resident |
 |/residents/<:residentID>| PUT    | Update a single resident |
 |/residents/<:residentID>| DELETE   | DELETE a single resident |
